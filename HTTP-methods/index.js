@@ -4,7 +4,7 @@ const app = express();
 const port = 4000;
 
 //HTTP Methods [get, post, put, delete]
-
+// for using post, put, delete, patch methods need to post-man
 app.get('/', (req, res)=>{
     res.send('Hi, I am GET method to get somthing from the server');
 });
